@@ -47,6 +47,7 @@ collections: # A list of collections the CMS should be able to edit
           - label: Contact Entries
             name: contact_entries
             widget: list
+            disableAdd: true
             fields:
               - label: Heading
                 name: heading
